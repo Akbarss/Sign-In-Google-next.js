@@ -9,6 +9,8 @@ const Login = () => {
     return (
       <div>
         <h2>Welcome, {session.user.name}</h2>
+        <h3>{session.user.email}</h3>
+        <h3>{session.expires}</h3>
         <img
           src={session.user.image}
           alt="sa"
